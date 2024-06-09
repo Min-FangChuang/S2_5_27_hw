@@ -1,4 +1,6 @@
-#pragma once
+#ifndef BALROG_H
+#define BARLOG_H
+
 #include "demon.h"
 #include<string>
 using std::string;
@@ -11,3 +13,4 @@ public:
 	string getSpecies();
 };
 
+#endif // !BALROG_H

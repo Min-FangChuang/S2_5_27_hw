@@ -32,7 +32,9 @@ int main() {
 		cin >> again;
 		clean();
 	} while (again == 'y');
-	
+
+	system("pause");
+	return (0);
 }
 
 void clean() {

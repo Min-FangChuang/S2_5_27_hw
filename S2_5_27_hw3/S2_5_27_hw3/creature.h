@@ -12,7 +12,7 @@ public:
 	int getStrength()const;
 	int getHitpoints()const;
 	void setStrength(int);
-	void serHitpoints(int);
+	void setHitpoints(int);
 private:
 	int strength;
 	int hitpoints;

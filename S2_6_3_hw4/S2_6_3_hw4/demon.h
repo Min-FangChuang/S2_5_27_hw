@@ -1,4 +1,6 @@
-#pragma once
+#ifndef DEMON_H
+#define DEMON_H
+
 #include "creature.h"
 #include<string>
 using std::string;
@@ -10,3 +12,4 @@ public:
 	int getDamage();
 };
 
+#endif // !DEMON_H

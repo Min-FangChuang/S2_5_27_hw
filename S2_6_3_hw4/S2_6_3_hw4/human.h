@@ -1,4 +1,6 @@
-#pragma once
+#ifndef HUMAN_H
+#define HUMAN_H
+
 #include "creature.h"
 #include<string>
 using std::string;
@@ -11,3 +13,4 @@ public:
 	string getSpecies();
 };
 
+#endif // !HUMAN_H

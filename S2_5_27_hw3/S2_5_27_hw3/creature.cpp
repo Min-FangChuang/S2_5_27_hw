@@ -22,6 +22,6 @@ int Creature::getHitpoints()const { return hitpoints; }
 void Creature::setStrength(int theStr) {
 	strength = theStr;
 }
-void Creature::serHitpoints(int thePoints) {
+void Creature::setHitpoints(int thePoints) {
 	hitpoints = thePoints;
 }

@@ -1,4 +1,6 @@
-#pragma once
+#ifndef CYBERDEMON_H
+#define CYBERDEMON_H
+
 #include "demon.h"
 #include<string>
 using std::string;
@@ -11,3 +13,4 @@ public:
 	string getSpecies();
 };
 
+#endif // !CYBERDEMON_H
